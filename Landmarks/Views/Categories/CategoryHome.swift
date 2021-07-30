@@ -15,12 +15,7 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
-                model.featured[0].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
-                    .listRowInsets(EdgeInsets())
+                FeaturedCategory(featured: model.featured)
                 
                 ForEach(model.categories.keys.sorted(), id: \.self) { key in
                     CategoryRow(

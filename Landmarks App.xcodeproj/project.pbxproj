@@ -17,6 +17,7 @@
 		FD001DCE26A872EE00F65109 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD001DCD26A872EE00F65109 /* Landmark.swift */; };
 		FD001DD026A8748700F65109 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD001DCF26A8748700F65109 /* Model.swift */; };
 		FD001DD526A8776500F65109 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD001DD426A8776500F65109 /* LandmarkRow.swift */; };
+		FD156B5E26B3423200F8D192 /* FeaturedCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD156B5D26B3423200F8D192 /* FeaturedCategory.swift */; };
 		FD344E3C26A879DA00A17A11 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD344E3B26A879DA00A17A11 /* LandmarkList.swift */; };
 		FD344E3E26A87C7000A17A11 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD344E3D26A87C7000A17A11 /* LandmarkDetail.swift */; };
 		FD344E4026A896ED00A17A11 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD344E3F26A896ED00A17A11 /* FavoriteButton.swift */; };
@@ -50,11 +51,11 @@
 		C20D77F624B665D8002E7AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C20D77FC24B668F4002E7AEA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		C20D77FE24B67FB3002E7AEA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		D37C64DBD0434958E334DB7A /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		FD001DCB26A8729400F65109 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		FD001DCD26A872EE00F65109 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		FD001DCF26A8748700F65109 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FD001DD426A8776500F65109 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		FD156B5D26B3423200F8D192 /* FeaturedCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCategory.swift; sourceTree = "<group>"; };
 		FD344E3B26A879DA00A17A11 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		FD344E3D26A87C7000A17A11 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		FD344E3F26A896ED00A17A11 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
@@ -90,21 +91,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		201EA7EE79E5C62AEE7F9426 /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-				D37C64DBD0434958E334DB7A /* LICENSE.txt */,
-			);
-			path = LICENSE;
-			sourceTree = "<group>";
-		};
 		C20D77E124B665D7002E7AEA = {
 			isa = PBXGroup;
 			children = (
 				C20D77EC24B665D7002E7AEA /* Landmarks */,
 				C20D77EB24B665D7002E7AEA /* Products */,
 				EE393712D7B336982239DD17 /* Configuration */,
-				201EA7EE79E5C62AEE7F9426 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -229,6 +221,7 @@
 				FD344E5E26ADC0D000A17A11 /* CategoryHome.swift */,
 				FD344E6026ADC45100A17A11 /* CategoryRow.swift */,
 				FD344E6226ADC66600A17A11 /* CategoryItem.swift */,
+				FD156B5D26B3423200F8D192 /* FeaturedCategory.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -316,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD344E6126ADC45100A17A11 /* CategoryRow.swift in Sources */,
+				FD156B5E26B3423200F8D192 /* FeaturedCategory.swift in Sources */,
 				FD344E6526ADD6B500A17A11 /* Profile.swift in Sources */,
 				C20D77F024B665D7002E7AEA /* ContentView.swift in Sources */,
 				FD344E5F26ADC0D000A17A11 /* CategoryHome.swift in Sources */,
